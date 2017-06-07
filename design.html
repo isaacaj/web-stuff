@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DESIGN!</title>
+		<style> 
+			@keyframes blink {
+    				0% { opacity: 1; }
+    				49% { opacity: 1; }
+    				50% { opacity: 0; }
+    				100% { opacity: 0; }
+				}
+					
+ 				@-webkit-keyframes argh-my-eyes {
+   					 0%   { background-color: #ff0066; }
+   					 49% { background-color: #c6d43c; }
+   					 50% { background-color: #00FFFF; }
+   					 99% { background-color: yellow; }
+  					 100% { background-color: #c6d43c; }
+  				}
+  				
+  				@-moz-keyframes argh-my-eyes {
+    				0%   { background-color: #ff0066; }
+    				49% { background-color: #c6d43c; }
+    				50% { background-color: #00FFFF; }
+   					99% { background-color: yellow; }
+   				 	100% { background-color: #c6d43c; }
+  				}
+  				
+  				@keyframes argh-my-eyes {
+    				0%   { background-color: #ff0066; }
+   	 				49% { background-color: #c6d43c; }
+    				50% { background-color: #00FFFF; }
+    				99% { background-color: yellow; }
+    				100% { background-color: #c6d43c; }
+  				}
+  				
+  				@keyframes rip-eyes {
+  					0% { color: #00FFFF; }
+  					50% { color: #ff0066; }
+  					100% { color: yellow; }
+  				}
+  				
+  				body {
+  					-webkit-animation: argh-my-eyes .1s infinite;
+  					-moz-animation:    argh-my-eyes .1s infinite;
+  					animation:         argh-my-eyes .1s infinite;
+				}
+				
+				span {
+					animation: rip-eyes .15s;
+					animation-iteration-count: infinite;
+				}
+  		</style>
+	</head>
+	
+	<body>
+		<marquee direction="down" width="100%" height="800" behavior="alternate" scrollamount="20">
+  			<marquee behavior="alternate" scrollamount="20">
+    			<a href="http://athena.edenpr.org/~iash/90sWebsite.html"><span style="font-size: 100px">DESIGN</span></a>
+  			</marquee>
+		</marquee>
+	</body>
+</html>
