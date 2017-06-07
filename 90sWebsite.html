@@ -1,16 +1,83 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Second Webpage! Radical!</title>
-		<style> body { background-color: #cfff05 } </style>
-		<audio controls>
+		<title>90s Website!</title>
+<!-- 		<style> body { background-color: #cfff05 } </style> -->
+		<audio controls autoplay hidden loop>
 			<source src="GreatSounds.mp3" type="audio/mpeg">
 		</audio>
+		
+		<style> body { background-color: #cfff05 }
+				@keyframes blink {
+    				0% { opacity: 1; }
+    				49% { opacity: 1; }
+    				50% { opacity: 0; }
+    				100% { opacity: 0; }
+				}
+					
+ 				@-webkit-keyframes argh-my-eyes {
+   					 0%   { background-color: #ff0066; }
+   					 49% { background-color: #c6d43c; }
+   					 50% { background-color: #00FFFF; }
+   					 99% { background-color: yellow; }
+  					 100% { background-color: #c6d43c; }
+  				}
+  				
+  				@-moz-keyframes argh-my-eyes {
+    				0%   { background-color: #ff0066; }
+    				49% { background-color: #c6d43c; }
+    				50% { background-color: #00FFFF; }
+   					99% { background-color: yellow; }
+   				 	100% { background-color: #c6d43c; }
+  				}
+  				
+  				@keyframes argh-my-eyes {
+    				0%   { background-color: #ff0066; }
+   	 				49% { background-color: #c6d43c; }
+    				50% { background-color: #00FFFF; }
+    				99% { background-color: yellow; }
+    				100% { background-color: #c6d43c; }
+  				}
+  				
+  				body {
+  					-webkit-animation: argh-my-eyes 1s infinite;
+  					-moz-animation:    argh-my-eyes 1s infinite;
+  					animation:         argh-my-eyes 1s infinite;
+				}
+					 
+				h1 {
+   					animation: blink .125s;
+    				animation-iteration-count: 300;
+				}
+				img {
+   					animation: blink .125s;
+					animation-iteration-count: 300;	
+									
+				}
+					
+				table, th, td {
+					border: 2px solid green
+					border-spacing: 5px;
+				}
+		</style>
+		
 	</head>
 	
 	<body>
-		<a href="http://athena.edenpr.org/~iash/first.html"><span style="color: #87fd05; font-size: 200px">To the first!</span></a>
+		<center><h1 style="font-family: Comic Sans MS; color: red">Welcome back to the 90s!</h1></center>
 		
+		<center><h3 style="color: red">Here are some owls.</h3></center>
 		
+		<marquee>
+		<img src="https://i.redd.it/emlmirybs02z.jpg" style="width:400px;height:400px;"></img>
+		<img src="https://cdn.kinsights.com/cache/2f/a0/2fa05bebbd843b9aa91e348a7e77d5c2.jpg" style="width:400px;height:400px;"></img>
+		<img src="https://i.ytimg.com/vi/X2Hj1saoF6Q/maxresdefault.jpg" style="width:400px;height:400px;"></img>
+		<img src="https://s-media-cache-ak0.pinimg.com/736x/89/8d/eb/898deb506601e696eecc1feda03bfc0b.jpg" style="width:400px;height:400px;"></img>
+		
+		</marquee>
+		
+		<center><a href=""><h3 style="color: blue">Remember these?</h3></a></center>
+			
+		<center><a href="https://zachholman.com/posts/only-90s-developers/"target="_blank"><p style="font-size: 12px;font-family: Comic Sans MS; color: red">Are you a developer?</p></a></center>
 	</body>
 </html>
